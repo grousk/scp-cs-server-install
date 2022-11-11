@@ -7,7 +7,7 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get update
 sudo apt-get install -y aspnetcore-runtime-3.1
 sudo apt install unzip
-wget https://gitlab.com/AIzyka/scp-cs-data/-/raw/master/installer/linux-server.zip
-unzip linux-server.zip
-chmod 755 ./sv_cmd
-sudo ./sv_cmd
+wget https://github.com/AltHub-Project/ClassifiedSiteSCP_FS/releases/download/0.8.0-r3/SERVER_LINUX.zip
+sudo unzip SERVER_LINUX.zip
+sudo chmod 755 ./server.x86_64
+sudo ./server.x86_64
